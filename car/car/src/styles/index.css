@@ -1,0 +1,128 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+body {
+  background-color: #09090b;
+}
+
+main {
+  position: relative;
+}
+
+.car-menu {
+  width: 428px;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  padding: 32px;
+  background-color: #18181b;
+}
+
+.car-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.car-menu-header img {
+  width: 13px;
+  height: 13px;
+}
+
+.car-menu-header p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #f9fafb;
+}
+
+.car-menu-header strong {
+  font-weight: 700;
+  color: #e4e4e7;
+  font-size: 20px;
+}
+
+.car-menu-list {
+  margin-top: 60px;
+}
+
+.car-menu-list-item {
+  display: flex;
+  margin-top: 48px;
+}
+
+.car-menu-list-item img {
+  width: 104px;
+  height: 104px;
+  border-radius: 10px;
+}
+
+.car-menu-list-info {
+  margin-left: 24px;
+}
+
+.car-menu-list-item p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e4e4e7;
+}
+
+.car-menu-list-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtotal {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #e4e4e7;
+}
+
+.car-menu-list-price {
+  margin-top: 25px;
+  align-items: center;
+}
+
+.car-menu-list-price button {
+  width: 40px;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #18181a;
+}
+
+.increment-decrement {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.increment-decrement span {
+  color: #f3f4f6;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.increment-decrement button img {
+  width: 14px;
+  height: 14px;
+}
+
+.plus {
+  border: 1px solid #a855f7;
+}
+
+.minus {
+  border: 1px solid #3f3f46;
+}
